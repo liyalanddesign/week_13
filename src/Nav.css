@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  width: 100%;
+  background: aliceblue;
+  padding: 18px 30px;
+
+  display: flex;
+  justify-content: center;
+}
+.navigation_container {
+  width: 100%;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+}
+.nav {
+}
+.links-container {
+}
+.link {
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #515151;
+  text-decoration: none;
+}
+
+.link.active {
+  font-weight: 600;
+  color: #262626;
+}
